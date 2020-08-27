@@ -53,7 +53,7 @@ def updatedb():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        passwd="Sql314209!",
+        passwd="#######",
         )
     cursor = mydb.cursor()
     cursor.execute('use emails')
@@ -69,7 +69,7 @@ def check_for_new():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        passwd="Sql314209!",
+        passwd="########",
         )
     cursor = mydb.cursor()
     cursor.execute('use emails')
