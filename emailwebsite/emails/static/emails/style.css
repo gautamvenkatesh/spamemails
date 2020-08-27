@@ -1,0 +1,187 @@
+<style>
+        head {
+        margin: 0;
+        }
+        body,html {
+            background-color: #1F2833 !important;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 50;
+            animation: fade 2s linear forwards;
+
+        }
+        body {
+        }
+        @keyframes fade {
+          from {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+          }
+          to { 
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+          }
+        }
+        .head {
+
+        }
+        .head h1{
+            color: #C5C6C7 !important;
+            font-size: 60px;
+            margin: 0;
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-bottom: 20px;
+            font-family: sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 50 !important;
+            text-align: left;
+        }
+        .content {
+            margin-top: 20px;
+            margin-left: 350px;
+            display: inline-block;
+            position: absolute;
+
+        }
+        .cont{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        .cont_element{
+            border-top: 0.05px solid #ebebeb;
+            margin-left: 0px;
+            width: 1230px;
+            height: 38px;
+        }
+        .subject, .name, .date {
+            display: inline-block;
+            font-weight: 50px;
+            color: #C5C6C7 !important;
+            position: absolute;
+            overflow: hidden;
+            height: 29px;
+            margin-top: 6px;
+        }
+        .subject p, .name p, .date p {
+            margin: 5px !important;
+            padding-top: 0px;
+            text-align: left;
+            overflow: hidden;
+            font-size: 15px;
+        }
+        .emailadd {
+            color:black;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+        .name {
+            margin-left: 50px;
+            width: 200px;
+            height: 24px;
+            overflow: hidden;
+        }
+        .subject {
+            margin-left: 340px;
+            width: 600px;
+            height: 24px;
+            overflow: hidden;
+        }
+        .date {
+            margin-left: 1055px;
+            float: right;
+        }
+        .email {
+            position: flex;
+            width: 1230px;
+            border-left: 1px solid #C5C6C7;
+            border-right: 1px solid #C5C6C7;
+            background-color: white;
+            min-height: 50px;
+            max-height: 700px;
+            overflow: auto;
+            display: none;
+
+        }
+        .filler{
+            height: 120px;
+            background-color: white;
+            position: relative;
+        }
+        .imgbox {
+            width: 150px;
+            height: 150px;
+            margin: 0px;
+            margin-left: 30px;
+            position: relative;
+        }
+        .image {
+            width: 150px;
+        }
+        .cont_element:hover{
+            border: 1px solid #C5C6C7;
+        }
+        .checkbox {
+            -webkit-appearance: none;
+            background-color: transparent;
+            margin-left: 18px;
+            margin-top: 11px;
+            border: 2px solid #C5C6C7;
+            padding: 6px;
+            border-radius: 3px;
+            display: inline-block;
+            vertical-align: -4px;
+            position: absolute;
+            z-index: 2;
+
+        }
+        .trash {
+            width: 15px;
+            position: absolute;
+            margin-top: 6px;
+            margin-left: 1195px;
+            padding: 5px;
+            z-index: 2;
+            border: 1px solid #1F2833;
+            background-color: gray;
+            border-radius: 20px;
+
+        }
+        .folders{
+            display: inline-block;
+            height: 500px;
+            width: 275px;
+            position: absolute;
+            margin-left: 40px;
+            margin-top: 20px;
+
+        }
+        .checkbox:active, .checkbox:checked:active {
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+        }
+        .checkbox:checked {
+            border: 2px solid gray;
+            background-color: gray;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+        }
+        .checkbox:checked:after {
+            content: '\2714';
+            font-size: 12px;
+            position: absolute;
+            top: -1px;
+            left: 2px;
+            color: #ebebeb;
+        }
+        *:focus {
+            outline: none;
+    }
+    </style>

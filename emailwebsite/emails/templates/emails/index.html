@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = 'en-US'>
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/emails/style.css">
+</head>
+<body>
+    <div style = "background-color: #1F2833; height: 140%; ">
+        <div class = 'head'>
+            <h1>Inbox</h1>
+        </div>
+        <div class = 'folders'>
+            <div class=  'imgbox'>
+                <img src = '/static/emails/inbox.png' class = 'image'> 
+            </div>
+            <div class = 'imgbox' style = 'margin-top: 60px;'>
+                <img src = '/static/emails/trash.png' class = 'image'>
+            </div>
+        </div>
+        <div class = 'content' id = 'content'>
+        </div>
+    </div>
+</body>
+<script src = '/static/emails/jquery-3.4.1.js'></script>
+<script src = '/static/emails/main.js'></script>
+<script>
+    update();
+
+</script>
+</html>
